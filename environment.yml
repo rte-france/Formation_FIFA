@@ -4,6 +4,7 @@ channels:
 dependencies:
   - python
   - numpy
+  - tensorflow
   - graphviz
   - pip:
     - nbgitpuller
@@ -16,11 +17,6 @@ dependencies:
     - scipy
     - keras
     - pydot
-    - bokeh
-    - urllib3
-    - seaborn
-    - ipywidgets
-    - jupyter_contrib_nbextensions
-    - jupytext
+    - jupyter-tensorboard
     - pytz
 
