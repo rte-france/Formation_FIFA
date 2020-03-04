@@ -6,8 +6,7 @@ Pour lancer l'etude de cas et le TP dans votre navigateur, cliquer sur le bouton
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/rte-france/Formation_FIFA/master)
 
 Quelques points à avoir en tête :
-
-    Pour lire les données, un mot de passe vous sera nécessaire.
-    Par expérience, il vaut mieux utiliser Firefox comme navigateur plutôt qu'Internet Explorer.
-    Les session Binder sont sujettes à un timeout de quelques minutes qui obligent à relancer le serveur.
+* Pour lire les données, un mot de passe vous sera nécessaire.
+* Par expérience, il vaut mieux utiliser Firefox comme navigateur plutôt qu'Internet Explorer.
+* Les session Binder sont sujettes à un timeout de quelques minutes qui obligent à relancer le serveur.
 
