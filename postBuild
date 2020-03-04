@@ -1,0 +1,10 @@
+jupyter contrib nbextension install --user
+jupyter nbextension enable --py widgetsnbextension
+jupyter nbextension enable python-markdown/main
+jupyter labextension install jupyterlab-jupytext --user
+#jupyter nbextension enable ToC2 --py --user
+
+# Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
+jupyter trust TP1_Preparation_donnees.ipynb
+jupyter trust TP1_Machine_learning.ipynb
+jupyter trust TP1_Machine_learning_a_trous.ipynb
