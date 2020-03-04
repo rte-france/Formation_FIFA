@@ -16,7 +16,6 @@ dependencies:
     - scipy
     - keras
     - pydot
-    - fbprophet
     - bokeh
     - urllib3
     - seaborn
