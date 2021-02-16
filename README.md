@@ -8,3 +8,7 @@ Quelques points à avoir en tête :
 * Par expérience, il vaut mieux utiliser Firefox comme navigateur plutôt qu'Internet Explorer.
 * Les session Binder sont sujettes à un timeout de quelques minutes qui obligent à relancer le serveur.
 
+You will find 3 notebooks:
+* An optional data preparation notebook
+* a first notebook to analyze the forecasting problem and develop kind of models [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rte-france/Formation_FIFA/blob/master/etude_de_cas_conso-systeme_expert_ML.ipynb)
+* a second notebook where you develop a deep learning model specifically [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rte-france/Formation_FIFA/blob/master/etude_de_cas_conso-deep_learning.ipynb)
