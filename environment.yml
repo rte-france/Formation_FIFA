@@ -2,21 +2,22 @@ name: example-environment
 channels:
   - conda-forge
 dependencies:
-  - python=3.6
+  - python=3.8
   - graphviz
   - pip
   - pip:
     - numpy
     - pandas
     - keras==2.3.1
-    - tensorflow==2.0
+    - tensorflow>=2.0
     - nbgitpuller
+    - nbformat<5
     - pytz
     - sphinx-gallery
     - xgboost
     - matplotlib
     - plotly
-    - sklearn
+    - scikit-learn==0.21.2
     - scipy
     - pydot
     - jupyter
