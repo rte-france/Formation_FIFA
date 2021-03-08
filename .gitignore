@@ -5,3 +5,4 @@ logs
 out.dot
 yourNeuralNet.png
 venv
+data/transformed_data

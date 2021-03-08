@@ -8,17 +8,14 @@ dependencies:
   - pip:
     - numpy
     - pandas
-    - keras==2.3.1
-    - tensorflow>=2.0
-    - nbgitpuller
-    - nbformat<5
+    - joblib
+    - tensorflow==2.2.2
+    - tensorboard==2.2
+    - jupyter_tensorboard
     - pytz
-    - sphinx-gallery
     - xgboost
     - matplotlib
     - plotly
-    - scikit-learn==0.21.2
-    - scipy
+    - scikit-learn
     - pydot
     - jupyter
-    - jupyter-tensorboard
