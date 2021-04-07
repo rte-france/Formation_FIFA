@@ -16,7 +16,7 @@ dependencies:
     - xgboost
     - matplotlib
     - plotly
-    - sklearn==0.21.3 
+    - sklearn==0.22.2 
     - scipy
     - pydot
     - jupyter
