@@ -1,9 +1,8 @@
-name: colab_2022_06_16
+name: colab20220616
 channels:
   - conda-forge
 dependencies:
   - python=3.7.13
-  - graphviz
   - pip
   - pip:
     - absl-py==1.1.0
