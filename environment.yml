@@ -4,7 +4,6 @@ channels:
 dependencies:
   - python=3.7.13
   - pip
-  - numpy
   - pip:
     - absl-py==1.1.0
     - alabaster==0.7.12
@@ -82,7 +81,6 @@ dependencies:
     - fastjsonschema==2.15.3
     - fastprogress==1.0.2
     - fastrlock==0.8
-    - fbprophet==0.7.1
     - feather-format==0.4.1
     - filelock==3.7.1
     - firebase-admin==4.4.0
