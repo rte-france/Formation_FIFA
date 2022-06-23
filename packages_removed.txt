@@ -1,0 +1,32 @@
+gdal
+cvxpy
+cvxopt
+torch, torchaudio etc.
+pygobject==3.26.1
+rpy2==3.4.5
+screen-resolution-extra==0.0.0
+xkit==0.0.0
+
+# dependances avec d'autres packages
+imgaug==0.2.9
+datascience==0.10.6
+traitlets==5.1.1
+jupyter-client==5.3.5 (nbclient 0.6.4 depends on jupyter-client>=6.1.5)
+
+# failed to build
+dlib
+fbprophet
+pysndfile
+python-apt==0.0.0
+
+# maybe interaction with binder
+jupyter==1.0.0
+jupyter-console==5.2.0
+jupyter-core==4.10.0
+jupyterlab-pygments==0.2.2
+jupyterlab-widgets==1.1.0
+ipykernel==4.10.1
+ipython==5.5.0
+ipython-genutils==0.2.0
+ipython-sql==0.3.9
+ipywidgets==7.7.0
