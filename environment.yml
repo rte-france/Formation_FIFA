@@ -7,8 +7,11 @@ dependencies:
   - pip:
     - numpy
     - ipykernel
+    - pydot
+    - graphviz
     - pandas
     - scikit-learn
+    - matplotlib
     - plotly
     - tensorflow
 
@@ -163,7 +166,7 @@ dependencies:
     # - jsonschema==4.3.3
     # - kaggle==1.5.12
     # - kapre==0.3.7
-    # - keras==2.8.0
+    # - tensas==2.8.0
     # - Keras-Preprocessing==1.1.2
     # - keras-vis==0.4.1
     # - kiwisolver==1.4.2
