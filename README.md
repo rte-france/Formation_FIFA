@@ -25,6 +25,8 @@ You will find 3 notebooks:
 * a first notebook to analyze the forecasting problem and develop kind of models [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rte-france/Formation_FIFA/blob/FIFA_2024/TP_Prev_conso/etude_de_cas_conso-systeme_expert_ML.ipynb)
 * a second notebook where you develop a deep learning model specifically [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rte-france/Formation_FIFA/blob/FIFA_2024/TP_Prev_conso/etude_de_cas_conso-deep_learning.ipynb)
 
-## TP NLP
+## TP - NLP
 
-Le TP NLP est à réaliser sur Google Colab. Il ne nécessite aucun autre fichier que le notebook `TP_Embeddings.ipynb` : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rte-france/Formation_FIFA/blob/FIFA_2024/TP_NLP/TP_Embeddings.ipynb)
+Le TP NLP ne nécessite pas l'utilisation de GPU et ne dépent d'aucun autre fichier que le notebook `TP_Embeddings.ipynb`.
+
+Le TP NLP est à réaliser sur Google Colab : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rte-france/Formation_FIFA/blob/FIFA_2024/TP_NLP/TP_Embeddings.ipynb)
