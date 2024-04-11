@@ -27,6 +27,6 @@ You will find 3 notebooks:
 
 ## TP - NLP
 
-Le TP NLP ne nécessite pas l'utilisation de GPU et ne dépent d'aucun autre fichier que le notebook `TP_Embeddings.ipynb`.
+Le TP NLP ne nécessite pas l'utilisation de GPU et ne dépend d'aucun autre fichier que le notebook `TP_Embeddings.ipynb`.
 
-Le TP NLP est à réaliser sur Google Colab : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rte-france/Formation_FIFA/blob/FIFA_2024/TP_NLP/TP_Embeddings.ipynb)
+Il est à réaliser sur Google Colab : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rte-france/Formation_FIFA/blob/FIFA_2024/TP_NLP/TP_Embeddings.ipynb)
