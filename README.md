@@ -13,7 +13,7 @@ Deux TPs sont proposés :
 
 Le TP est composé de 3 notebooks à exécuter dans l'environnement Google Colab :
 * Un notebook optionnel pour la préparation des données : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rte-france/Formation_FIFA/blob/master/TP_Prev_conso/preparation_donnees.ipynb)
-* Un premier notebook pour analyser le problème de la prévision de la consommation et développer des modèles simples : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rte-france/Formation_FIFA/blob/FIFA_2024/TP_Prev_conso/etude_de_cas_conso-systeme_expert_ML.ipynb)
+* Un premier notebook pour analyser le problème de la prévision de la consommation et développer des modèles simples : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rte-france/Formation_FIFA/blob/master/TP_Prev_conso/etude_de_cas_conso_systeme_expert_ML.ipynb)
 * Un second notebook où vous développez un modèle d'apprentissage profond (deep learning) : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rte-france/Formation_FIFA/blob/FIFA_2024/TP_Prev_conso/etude_de_cas_conso-deep_learning.ipynb)
 
 <!--
