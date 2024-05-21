@@ -7,7 +7,7 @@ Ce répertoire contient les fichiers nécessaires à la réalisation des TPs pou
 Deux TPs sont proposés :
 
 * TP sur la prévision de la consommation électrique 
-* TP NLP sur l'immplémentation d'un moteur de recherche sémantique
+* TP NLP sur l'implémentation d'un moteur de recherche sémantique
 
 ## Etude de cas et TP sur la prévision de consommation électrique pour la formation FIFA à RTE
 
