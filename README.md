@@ -35,4 +35,4 @@ You will find 3 notebooks:
 
 ## TP NLP
 
-Le TP est composé d'un notebook à exécuter dans l'environnement Google Colab : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rte-france/Formation_FIFA/blob/FIFA_2024/TP_NLP/TP_Embeddings.ipynb)
+Le TP est composé d'un notebook à exécuter dans l'environnement Google Colab : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/rte-france/Formation_FIFA/blob/master/TP_NLP/TP_LLM.ipynb)
