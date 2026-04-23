@@ -7,7 +7,7 @@ Ce répertoire contient les fichiers nécessaires à la réalisation des TPs pou
 Deux TPs sont proposés :
 
 - TP sur la prévision de la consommation électrique
-- TP NLP sur l'implémentation d'un moteur de recherche sémantique
+- TP sur l'analyse du fonctionnement d'un LLM
 
 ## Etude de cas et TP sur la prévision de consommation électrique pour la formation FIFA à RTE
 
@@ -33,7 +33,7 @@ You will find 3 notebooks:
 * a second notebook where you develop a deep learning model specifically [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rte-france/Formation_FIFA/blob/FIFA_2024/TP_Prev_conso/etude_de_cas_conso-deep_learning.ipynb)
 -->
 
-## TP NLP
+## TP LLM
 
 Le TP est composé d'un notebook à exécuter dans l'environnement Google Colab : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rte-france/Formation_FIFA/blob/master/TP_NLP/TP_LLM.ipynb)
 
