@@ -35,6 +35,6 @@ You will find 3 notebooks:
 
 ## TP LLM
 
-Le TP est composé d'un notebook à exécuter dans l'environnement Google Colab : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rte-france/Formation_FIFA/blob/master/TP_NLP/TP_LLM.ipynb)
+Le TP est composé d'un notebook à exécuter dans l'environnement Google Colab : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/rte-france/Formation_FIFA/blob/master/TP_LLM/TP_LLM.ipynb)
 
 Assurez-vous d'exécuter ce notebook dans un environnement avec GPU : dans Google Colab, cliquez sur `Exécution` puis `Modifier le type d'exécution` et sélectionnez **GPU T4**.
