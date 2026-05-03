@@ -94,29 +94,29 @@ On peut ajouter une condition ("Si / Alors") dans les instructions. Par exemple 
 
 ### **4.2 ReAct : la boucle complète**
 
-Voici des exemples d'implémentation pour les outils demandés :
+Voici un exemple d'implémentation pour les outils demandés :
 
 ```python
-import random
 import datetime
+import json
+import random
+import urllib.request
 
-# Outil 1 : Nombre aléatoire
+# Tool 1 : random number
 def get_random_number(min_val: int = 1, max_val: int = 100) -> dict:
     return {"result": random.randint(min_val, max_val)}
 
-# Outil 2 : Jour de la semaine
+# Tool 2 : weekday
 def get_weekday(date_str: str) -> dict:
-    # Attend un format YYYY-MM-DD
+    # Expect YYYY-MM-DD date format
     try:
         date_obj = datetime.datetime.strptime(date_str, "%Y-%m-%d")
         return {"weekday": date_obj.strftime("%A")}
     except ValueError:
-        return {"error": "Format de date invalide. Utilisez YYYY-MM-DD."}
+        return {"error": "Invalid date format, expect : YYYY-MM-DD."}
 
-# Outil 3 : Position de l'ISS
+# Tool 3 : ISS position
 def get_ISS_position() -> dict:
-    import urllib.request
-    import json
     url = "http://api.open-notify.org/iss-now.json"
     with urllib.request.urlopen(url) as r:
         data = json.loads(r.read())
@@ -125,7 +125,7 @@ def get_ISS_position() -> dict:
         "longitude": data["iss_position"]["longitude"]
     }
 
-# Ajout dans le dictionnaire
+# Add in tools registry
 TOOLS_REGISTRY.update({
     "get_random_number": {
         "func": get_random_number,
@@ -176,7 +176,7 @@ TOOLS_REGISTRY.update({
 
 **Risques anticipés :**
 
-- C'est une **faille de sécurité critique**. Donner à un LLM la capacité d'exécuter du code arbitraire sur la machine hôte permet, de manière intentionnelle (par _prompt injection_ d'un utilisateur malveillant) ou par hallucination, de détruire des données (ex: `os.system('rm -rf /')`), d'exfiltrer des variables d'environnement, des clés d'API, ou d'infecter le serveur.
+- C'est une **faille de sécurité critique**. Donner à un LLM la capacité d'exécuter du code arbitraire sur la machine hôte permet, de manière intentionnelle (par _prompt injection_ d'un utilisateur malveillant) ou non (hallucination du LLM), de détruire des données (ex: `os.system('rm -rf /')`), d'exfiltrer des variables d'environnement, des clés d'API, ou d'infecter le serveur.
 
 **Solutions possibles :**
 
