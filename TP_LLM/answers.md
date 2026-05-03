@@ -29,12 +29,12 @@
 
 - La température lisse ou accentue les écarts de probabilité entre les tokens.
 - **Proche de 0 :** La distribution devient très "pointue". Le modèle est presque déterministe et choisira systématiquement le token avec la probabilité maximale, écrasant les autres.
-- **Proche de 1 :** La distribution est lissée. Les tokens moins probables regagnent des chances d'être tirés au sort, introduisant de l'aléatoire et de la créativité.
+- **Proche de 1 :** La distribution est lissée. Les tokens moins probables regagnent des chances d'être échantillonnés, introduisant de l'aléatoire et de la créativité.
 
 **Rôle du `top_k` et pourquoi on en a besoin :**
 
-- Le `top_k` tronque la distribution pour ne conserver que les $k$ tokens les plus probables (les autres voient leur probabilité réduite à 0).
-- Le vocabulaire des LLMs contient environ 100 000 à 200 000 tokens.contient. Même avec une bonne distribution, des tokens absurdes peuvent avoir une probabilité faible mais non nulle. Sans filtrage, ils pourraient être échantillonnés et produire du texte incohérent.
+- Le `top_k` tronque la distribution pour ne conserver que les `k` tokens les plus probables (les autres voient leur probabilité réduite à 0).
+- Le vocabulaire des LLMs contient environ 100 000 à 200 000 tokens. Même avec une bonne distribution, des tokens absurdes peuvent avoir une probabilité faible mais non nulle. Sans filtrage, ils pourraient être échantillonnés et produire du texte incohérent.
 
 ### **2.4 Pipeline de génération**
 
