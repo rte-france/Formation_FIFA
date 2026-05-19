@@ -1,0 +1,9 @@
+numpy
+ipykernel
+pydot
+graphviz
+pandas
+scikit-learn
+matplotlib
+plotly
+tensorflow
