@@ -11,7 +11,7 @@
 **Conséquences sur le traitement et la génération :**
 
 - **Qualité :** Un prompt mieux découpé (avec 1 token = 1 mot) sera mieux interprété par le LLM qui n'aura pas besoin de comprendre et relier chaque sous-tokens de chaque mot.
-- **Performance :** Moins il y a de tokens pour un même mot, plus la génération sera rapide (le LLM générant séquentiellement token par token) et moins elle sera coûteuse (voir la suite du TP).
+- **Performance :** Moins il y a de tokens pour un même mot, plus la génération sera rapide (le LLM générant séquentiellement token par token) et moins elle sera coûteuse (voir question 2.5).
 
 ### **2.2 LLM : Embedding**
 
@@ -50,7 +50,7 @@
 
 **Pourquoi est-on facturé au token et pas à la question ?**
 
-- Parce que le temps de calcul et la mémoire mobilisée sur les serveurs dépendent du nombre de tokens traités et générés. Une question d'un utilisateur peut faire 3 mots ("Qui est Napoléon ?") ou 5 pages de documentation technique à analyser. La facturation au token reflète la consommation réelle de ressources.
+- Parce que le temps de calcul et la mémoire mobilisée sur les serveurs dépendent du nombre de tokens traités et générés. Une question d'un utilisateur peut faire 3 mots ("Qui est Napoléon ?") ou 5 pages de documentation technique à analyser. La facturation au token reflète la consommation réelle des ressources physiques.
 
 **Pourquoi y a-t-il une tarification différenciée entre "short context" et "long context" ?**
 
@@ -58,8 +58,8 @@
 
 **Pourquoi y a-t-il une différence de prix entre "input tokens" et "output tokens" ?**
 
-- **Input (Prompt) :** Les tokens d'entrée sont traités en parallèle lors d'une phase appelée _Prefill_. C'est extrêmement rapide et optimise bien l'architecture des GPU.
-- **Output (Génération) :** Les tokens générés le sont de manière auto-régressive, un par un. Ce processus séquentiel monopolise la mémoire du serveur plus longtemps, ce qui coûte plus cher au fournisseur d'API.
+- **Input (Prompt) :** Les tokens d'entrée sont traités en parallèle lors d'une phase appelée _Prefill_. C'est rapide et optimise bien l'architecture des GPU.
+- **Output (Génération) :** Les tokens sont générés de manière auto-régressive, un par un. Ce processus séquentiel monopolise la mémoire du serveur plus longtemps, ce qui coûte plus cher au fournisseur d'API.
 
 ## **3. Comment transformer un LLM en assistant ?**
 
